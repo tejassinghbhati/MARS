@@ -136,5 +136,3 @@ Subsequent phases of this research will focus on:
 - **Skill Metadata & Manifests**: Requiring skills to declare a `manifest.json` alongside their implementation, enabling the engine to validate compatibility, version constraints, and required permissions before loading.
 - **Inter-Skill Communication**: Investigating an event-bus architecture that allows skills to subscribe to and emit custom events, enabling emergent compositional behaviors without coupling skill implementations directly.
 - **Promotion to OpenClaw Core**: The validated patterns from this module — particularly the `vm` sandboxing strategy and the `PluginManager` lifecycle contract — will be directly integrated into OpenClaw's skill registry subsystem.
-#   R u n t i m e - E x t e n s i o n - E n g i n e  
- 
