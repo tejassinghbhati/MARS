@@ -1,0 +1,3 @@
+MARS (Modular Agent Runtime System)
+
+This file lives under data/ and can be read by the agent via the fileReader tool (e.g. ask the chat to read sample.txt).
