@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Local configuration and secrets
+.env
+.env.local
+*.pem
+
+# SQLite and local databases
+*.db
+*.db-shm
+*.db-shm
+*.db-wal
+
+# Chroma / vector store volumes
+data/chroma/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Build / coverage
+dist/
+coverage/
+.nyc_output/
