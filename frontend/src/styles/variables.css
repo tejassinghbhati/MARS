@@ -1,0 +1,52 @@
+:root {
+  /* Background layers */
+  --bg-base:    #08090b;
+  --bg-panel:   #0d0f12;
+  --bg-card:    #12151a;
+  --bg-hover:   #171b21;
+  --bg-active:  #1c2129;
+
+  /* Borders */
+  --border-dim:     #1e2328;
+  --border-default: #252c35;
+  --border-bright:  #2e3a48;
+  --border-accent:  #c8973a44;
+
+  /* Text */
+  --text-primary:   #d4cfc4;
+  --text-secondary: #7d8a96;
+  --text-muted:     #3e4a56;
+  --text-accent:    #c8973a;
+  --text-bright:    #eae6dd;
+
+  /* Accent — amber gold (scientific instrument) */
+  --accent:         #c8973a;
+  --accent-dim:     #7a5c22;
+  --accent-glow:    #c8973a22;
+
+  /* Status colors */
+  --green:          #4eca8b;
+  --green-dim:      #1e4a34;
+  --red:            #e05c5c;
+  --red-dim:        #4a1e1e;
+  --blue:           #5b9bd5;
+  --blue-dim:       #1e304a;
+  --cyan:           #4ecdc4;
+  --cyan-dim:       #1e3e3c;
+  --yellow:         #e0c258;
+  --yellow-dim:     #4a3e1e;
+
+  /* Typography */
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
+  --font-serif: 'Georgia', 'Times New Roman', serif;
+
+  /* Sizing */
+  --sidebar-w: 220px;
+  --header-h:  48px;
+  --status-h:  26px;
+  --radius:    2px;
+
+  /* Transitions */
+  --t-fast: 80ms ease;
+  --t-base: 150ms ease;
+}

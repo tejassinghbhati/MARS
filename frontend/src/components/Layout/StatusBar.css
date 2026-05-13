@@ -1,0 +1,30 @@
+.status-bar {
+  height: var(--status-h);
+  background: var(--bg-panel);
+  border-top: 1px solid var(--border-dim);
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  gap: 8px;
+  font-size: 10.5px;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+  letter-spacing: 0.04em;
+}
+
+.status-item {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.status-sep {
+  color: var(--border-bright);
+}
+
+.status-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
