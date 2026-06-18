@@ -3,7 +3,7 @@
 
 ---
 
-**Lead investigator:** Tejas Singh Bhati  
+**Project By:** Tejas Singh Bhati  
 **Programme identifier:** MARS · v0.8.1-alpha · May 2026 snapshot  
 **Repository classification:** Systems research — experimental apparatus, not production release  
 **Epistemic status:** Design intentions stated herein are subject to empirical revision; quantitative claims require separate benchmarking not bundled in this snapshot.
